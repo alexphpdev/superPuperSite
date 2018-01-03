@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{ height: 100%; }
+
+body { 
+	background-image: url('/img/admin_auth_bg.jpg');
+	background-size: cover;
+}
+
+form{
+	height: 100%;
+	background-color: rgba(32,32,32,0.7);
+    opacity: 0.9;
+}
+
+.inner { 
+	margin: 0 auto; 
+	padding: 20px; 
+	width: 350px; 
+	background: #fff; 
+	border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 6px 6px -6px black;
+}
+
+.main{
+	position: absolute;
+    top: 50%;
+    margin-top: -135px;
+    left: 50%;
+    margin-left: -175px;
+}
+
+.forgetPass{
+	margin-left: 3px;
+}
